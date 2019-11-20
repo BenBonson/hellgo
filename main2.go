@@ -5,13 +5,14 @@ import (
 	"strings"
 )
 
+var greeting string
+
 func main() {
 	/*
 		var locale, greeting string
 		var languages = [4]string{"en", "es", "de", "fr"}
 		locale = languages[1]
 	*/
-	var greeting string
 	/*var languages = [4]string{"en", "es", "de", "fr"}*/
 	/*
 		if locale == "en" {
